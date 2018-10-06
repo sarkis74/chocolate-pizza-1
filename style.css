@@ -144,31 +144,20 @@ h4{
     color:#939393;
     display: inline;
 }
-
-b {
-    position: relative;
-    right: -15px;
-    bottom: 50px;
-}
-
-#bio {
-    
-    position: relative;
-    right: -80px;
-    bottom: 60px;
-    padding-left: 1em;
-    text-indent:-0.5em;
-
-}
-
+.bio {
+    padding: 0px 15px;
+    text-indent:0;
+} 
 button {
+    display: inline;
+    width: 175px;
+    height: 60px;
     position: relative;
-    right: -700px;
-    bottom: 160px;
-    width: 200px;
-    height: 70px;
-    background-color: rgb(133, 69, 46);
+    top: -80px;
+    left: 625px;
+    background-color:#bc7058;
     color: white;
     font-size: 20px;
-    font-style: 'Strait';
+    font-family: 'Strait';
+    border: 0;
 }
