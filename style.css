@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+    font-family: 'Noto Serif', Georgia, Times, 'Times New Roman', serif;
+    color: gray;
+}
+.container{
+    background-color: white;
+    width: 80%;
+    padding: 10px 30px 10px 30px;
+    margin: 0 auto 0 auto;
+}
+header img{
+    float: left;
+    height: 45px;
+}
+h1{
+    font-family: 'Yellowtail', cursive;
+}
+h3{
+    font-family: 'Strait', sans-serif;
+}
+header li{
+    float: right;
+    list-style: none;
+    display: inline;
+}
+li img{
+    height: 24px;
+}
