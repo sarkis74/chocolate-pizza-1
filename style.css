@@ -1,29 +1,55 @@
-body{
+body {
     background-color: black;
     font-family: 'Noto Serif', Georgia, Times, 'Times New Roman', serif;
     color: gray;
 }
-.container{
+.container {
     background-color: white;
     width: 80%;
     padding: 10px 30px 10px 30px;
     margin: 0 auto 0 auto;
 }
-header img{
+header img {
     float: left;
     height: 45px;
+    margin-top: 5px;
 }
-h1{
+h1 {
     font-family: 'Yellowtail', cursive;
+    margin: 0px;
+    padding: 0px;
+    line-height: 100%;
 }
-h3{
+h3 {
     font-family: 'Strait', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 50px;
+    margin-left: 5px;
+}
+
+#icons, ul {
+    display: inline;
+    padding: 200px 5px 0px 5px;
+    
+    
+}
+
+header, ul {
+    padding: 20px 5px 0px 5px; 
 }
 header li{
     float: right;
     list-style: none;
-    display: inline;
-}
+    position: relative;
+    top: -50px;
+    right: -100;
+    
+    }
 li img{
     height: 24px;
+}
+
+#rss {
+    padding-left: 10px;
 }
