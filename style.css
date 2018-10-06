@@ -25,6 +25,13 @@ h3 {
     padding-left: 48px;
     margin-left: 0px;
 }
+h3 {
+    font-family: 'Strait', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 48px;
+    margin-left: 0px;
+}
 header ul li{
     display: inline;
     list-style: none;
@@ -102,6 +109,7 @@ h3{
     font-family: 'Strait', sans-serif;
     padding-left: 10px;
 }
+
 
 button {
     position: relative;
