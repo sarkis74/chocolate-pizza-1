@@ -10,20 +10,20 @@ body {
     padding: 10px 170px 50px 170px;
     margin: 0px auto 0px auto;
 }
-#logo{
+/* logo left to tagline */
+header img {
     float: left;
     height: 45px;
 }
 header{
     margin-top: 25px;
 }
-header div{
-    float: right;
-    height: 24px;
-    width: 300px;
-    position: relative;
-    top: -50px;
-    right: -20px;
+h3 {
+    font-family: 'Strait', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 48px;
+    margin-left: 0px;
 }
 h3 {
     font-family: 'Strait', sans-serif;
@@ -108,28 +108,8 @@ h3, h4{
 h3{
     font-family: 'Strait', sans-serif;
     padding-left: 10px;
-    font-size: 9pt;
-    float: left;
 }
-h4{
-    font-size: 11pt;
-    color:#939393;
-    display: inline;
-}
-.print{
-    float: right;
-}
-.print:before{
-    content: '';
-    display: block;
-    background: url("img/print-icon.png") no-repeat;
-    height: 10px;
-    width: 13px;
-    float: left;
-    margin: 0 3px 0 0;
-    position: relative;
-    top: 3px;
-}
+
 
 button {
     position: relative;
