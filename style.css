@@ -11,6 +11,7 @@ body {
     margin: 0px auto 0px auto;
 }
 
+/*Header, Logo and Social Media Icons*/
 #logo{
     float: left;
     height: 45px;
@@ -33,14 +34,41 @@ header ul li{
 #mail{
     padding-left: 15px;
 }
-hr{
+
+/*Dividers*/
+.divider{
     height: 15px;
     background-image: url("img/hr-bg.jpg");
     border: none;
     clear: both;
     margin-top: 40px;
 }
+hr.footer {
+    display: inline-block;
+    width: 45%;
+    border: 0;
+    height: 1px;
+    background-color: lightgray;
+    position: relative;
+    top: -15px;
+    margin: 3px;
+}
+
 /*Article Content*/
+.print{
+    float: right;
+}
+.print:before{
+    content: '';
+    display: block;
+    background: url("img/print-icon.png") no-repeat;
+    height: 10px;
+    width: 13px;
+    float: left;
+    margin: 0 3px 0 0;
+    position: relative;
+    top: 3px;
+}
 article img{
     margin-top: 30px;
 }
@@ -68,7 +96,6 @@ section ul li{
     font-family: 'Patrick Hand', sans-serif;
     font-size: 18pt;
     color: #696b46;
-
 }
 
 /*Footer*/
@@ -77,7 +104,7 @@ footer{
     font-size: 10pt;
 }
 
-/*Headers*/
+/*Overall Font Styling*/
 h1 {
     font-family: 'Yellowtail', cursive;
     font-size: 30pt;
@@ -109,20 +136,6 @@ h4{
     font-size: 11pt;
     color:#939393;
     display: inline;
-}
-.print{
-    float: right;
-}
-.print:before{
-    content: '';
-    display: block;
-    background: url("img/print-icon.png") no-repeat;
-    height: 10px;
-    width: 13px;
-    float: left;
-    margin: 0 3px 0 0;
-    position: relative;
-    top: 3px;
 }
 
 button {
