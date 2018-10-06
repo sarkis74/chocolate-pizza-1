@@ -2,24 +2,21 @@ body {
     background-color: black;
     font-family: 'Noto Serif', Georgia, Times, 'Times New Roman', serif;
     color: gray;
+    margin: 0;
 }
 .container {
     background-color: white;
-    width: 80%;
-    padding: 10px 30px 10px 30px;
-    margin: 0 auto 0 auto;
+    width: 901px;
+    padding: 10px 170px 50px 170px;
+    margin: 0px auto 0px auto;
 }
 /* logo left to tagline */
 header img {
     float: left;
     height: 45px;
-    margin-top: 5px;
 }
-h1 {
-    font-family: 'Yellowtail', cursive;
-    margin: 0px;
-    padding: 0px;
-    line-height: 100%;
+header{
+    margin-top: 25px;
 }
 h3 {
     font-family: 'Strait', sans-serif;
@@ -28,30 +25,81 @@ h3 {
     padding-left: 48px;
     margin-left: 0px;
 }
-
-#icons, ul {
+header ul li{
     display: inline;
-    padding: 200px 5px 0px 5px;
-    
-    
-}
-
-header, ul {
-    padding: 20px 5px 0px 5px; 
-}
-header li{
-    float: right;
     list-style: none;
-    position: relative;
-    top: -50px;
-    right: -100;
-    
-    }
-li img{
-    height: 24px;
+}
+#mail{
+    padding-left: 15px;
+}
+hr{
+    height: 15px;
+    background-image: url("img/hr-bg.jpg");
+    border: none;
+    clear: both;
+    margin-top: 40px;
+}
+/*Article Content*/
+article img{
+    margin-top: 30px;
+}
+p{
+    text-indent: 30px;
 }
 
-#rss {
+/*Ingredients List*/
+section{
+    background: url("img/list-bg.png") no-repeat;
+    height: 305px;
+    padding: 15px 0 20px 15px;
+}
+section ul{ /*Code from CSS tricks website*/  
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    -webkit-column-gap: 40px;
+    column-gap: 40px;
+    -moz-column-gap: 40px;
+}
+section ul li{
+    list-style: none;
+    padding: 0;
+    font-family: 'Patrick Hand', sans-serif;
+    font-size: 18pt;
+    color: #696b46;
+
+}
+
+/*Footer*/
+footer{
+    text-align: center; 
+    font-size: 10pt;
+}
+
+/*Headers*/
+h1 {
+    font-family: 'Yellowtail', cursive;
+    font-size: 30pt;
+    line-height: 100%;
+    padding-left: 50px;
+    margin: 0px;
+    color: black;
+}
+h2{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+    color: black;
+    font-size: 30pt;
+    margin: 40px 0 0 0;
+}
+h3, h4{
+    font-family: 'Strait', sans-serif;
+    font-weight: lighter;
+    text-transform: uppercase;
+    margin: 0;
+}
+h3{
+    font-family: 'Strait', sans-serif;
     padding-left: 10px;
 }
 
